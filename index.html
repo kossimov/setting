@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./main.css">
+  <title>13-dars sinf ishi</title>
+</head>
+<body>
+
+  <h1 class="visually-hidden">Setting</h1>
+  <main>
+    <section class="settings">
+      <div class="container">
+        <form class="settings-form" action="https://echo.htmlacademy.ru/" method="post" autocomplete="off">
+          <div class="settings-top-wrapper">
+            <h2 class="settings-top-heading">Account settings</h2>
+            <button class="settings-top-button" type="reset">
+              <img class="settings-top-img" src="./images/cross.svg" 
+              width="20" 
+              height="20"
+              alt="cross">
+            </button>
+          </div>
+
+          <div class="settings-hero-wrapper">
+            <img class="setting-hero-img" src="./images/avatar.jpg"
+            width="40"
+            height="40"
+            alt="account user he is man">
+
+            <label class="hero-label">Username
+              <input class="hero-input" type="text"
+              name="user_name"
+              placeholder="Enter your username"
+              required>
+            </label>
+            <div class="hero-center-wrapper">
+              <label class="hero-label">First name
+                <input class="hero-input" type="text"
+                name="user_firstname"
+                placeholder="Enter your first name">
+              </label>
+              <label class="hero-label">Last name
+                <input class="hero-input" type="text"
+                name="user_lastname"
+                placeholder="Enter your last name">
+              </label>
+            </div>
+            <label class="hero-label">Email
+              <input class="hero-input" type="text"
+              name="user_email"
+              placeholder="Enter your email"
+              required>
+            </label>
+            <label class="hero-label">
+              Bio
+              <textarea class="hero-textarea" name="user-biography" placeholder="Tell us about yourself"></textarea>
+            </label>
+          </div>
+
+          <div class="settings-bottom-wrapper">
+            <button class="settings-bottom-button" type="reset">Cancel</button>
+            <button class="settings-bottom-button" type="submit">Save</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
